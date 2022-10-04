@@ -9,7 +9,7 @@ class Inferer:
         self.selected_features = selected_features
 
     def _get_original_variables(
-        model_selected_features: list, columns: list, separator: str
+        self, model_selected_features: list, columns: list, separator: str
     ):
         selected_features = []
         for feature in model_selected_features:
