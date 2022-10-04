@@ -21,7 +21,7 @@ class Inferer:
 
     def predict_probability(self, data: pd.DataFrame):
         model_selected_features = self.selected_features
-        selected_features = self.get_original_variables(
+        selected_features = self._get_original_variables(
             model_selected_features, data.columns, "_"
         )
         data = data[selected_features]
