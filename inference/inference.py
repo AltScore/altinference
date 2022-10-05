@@ -16,8 +16,11 @@ class Inferer:
         for feature in model_selected_features:
             if feature in columns:
                 selected_features.append(feature)
-            else:
+            elif feature.rsplit(separator, 1)[0] in columns:
                 selected_features.append(feature.rsplit(separator, 1)[0])
+            else:
+                selected_features.append(feature)
+
         return selected_features
 
     def _fill_missing_features(self, data: pd.DataFrame, needed_features: list):
