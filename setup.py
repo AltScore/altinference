@@ -11,6 +11,7 @@ setuptools.setup(
     packages=find_packages(),
     install_requires=[
         "pandas==1.4.2",
-        "dill==0.3.5.1"
+        "dill==0.3.5.1",
+        "numpy==1.21.6",
     ],
 )
