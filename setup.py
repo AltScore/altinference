@@ -13,5 +13,6 @@ setuptools.setup(
         "pandas==1.4.2",
         "dill==0.3.5.1",
         "numpy==1.21.6",
+        "xgboost",
     ],
 )
