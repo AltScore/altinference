@@ -14,5 +14,6 @@ setuptools.setup(
         "dill==0.3.5.1",
         "numpy==1.21.6",
         "xgboost",
+        "pdpipe",
     ],
 )
