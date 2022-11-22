@@ -2,6 +2,10 @@ Altinferencer
 ===============
 Library to put AltScore models into production
 
+This repo is no longer being maintained, its code has been migrated to AltBlackBox repo. 
+The repository will remain here for legacy reasons:
+ - Banco Phichincha
+
 
 🔩 Installation
 ===============
